@@ -1,0 +1,415 @@
+body{
+    margin: 0;
+    /* padding: 0;
+    box-sizing: border-box; */
+    font-family: "Roboto","SF UI Display";
+}
+/* Navbar */
+.nav{
+    background-color:#000;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    
+}
+.apple-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+
+    
+}
+.apple-nav li{
+    margin-left: -20px;
+    list-style: none;
+}
+.nav ul li a{
+    
+    color: #f4f4f4;
+}
+
+/* Main Content */
+.main{
+    background: url("./images/hero__dvsxv8smkkgi_large.jpg") no-repeat center center/cover;
+    height: 85vh;
+    margin-bottom: 20px;
+    margin-top: 45px;
+   
+
+    
+} 
+.main-text{
+    text-align: center;
+    position: relative;
+    color: #f4f4f4;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.color{
+    background-color: #000000;
+
+}
+.main-text h1{
+    font-size: 3.2rem;
+    font-weight: bolder;
+    
+}
+.main-text p{
+    font-size: 1.6rem;
+    position: relative;
+    bottom: 50px;
+}
+.main-text a{
+    font-size: 1.15rem;
+    position: relative;
+    bottom: 50px;
+    text-decoration: none;
+    color:#2997ff;
+}
+.a-text:hover{
+    border-bottom: 2px solid #2997ff;
+}
+
+/* Iphone */
+.iphone {
+    background: url("./images/iphone.jpg") no-repeat center center/cover;
+    height: 85vh;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.iphone-text{
+    padding: 10px 0;
+}
+.iphone-text h1{
+    font-size: 3rem;
+}
+.iphone-text p{
+   font-size: 1.5rem;
+   position: relative;
+   bottom: 30px;
+}
+.iphone-text a{
+    font-size: 1.15rem;
+    position: relative;
+    bottom: 38px;
+    text-decoration: none;
+    color:#2997ff;
+}
+/* Films Section */
+.films{
+    background: url("./images/hero__dvsxv8smkkgi_large\ \(2\).jpg") no-repeat center center/cover;
+    height: 90vh;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.films-text{
+    position: relative;
+    top: 250px;
+}
+.films-text p{
+    font-size: 1.6rem;
+    color: #f4f4f4;
+    width: 30%;
+    margin-left: 430px;
+}
+.films-button button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+.films-button a,.shot a{
+    font-size: 1.15rem;
+    text-decoration: none;
+    color:#f4f4f4;
+    margin-left: 20px;
+}
+.films-button .atext:hover, .shot-a-text:hover{
+    border-bottom: 2px solid #f4f4f4;
+}
+/* Features */
+.feature{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 15px;
+}
+
+.watch{
+    background: url(./images/watch.jpg) no-repeat center center/cover;
+    height: 90vh;
+    text-align: center;
+    
+     
+}
+.watch img{
+    padding: 0 100px;
+    margin-top: 45px;
+}
+.watch p{
+    font-size: 1.1rem;
+    width: 60%;
+    margin: 3px auto;
+}
+.watch a,.macbook a,.ipad a,.airpods a,.homepod a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.macbook{
+    background-color: #fafafa;
+    height: 90vh;
+    text-align: center;
+}
+.macbook img{
+    width: 65%;
+    
+    margin-top: 20px;
+
+}
+.macbook h1, .airpods h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.macbook-text .firstp{
+    position: relative;
+    top: 25px;
+}
+.macbook-text .secondp{
+    position: relative;
+    bottom: 25px;
+    font-size: 1.2rem;
+    color: #181818;
+}
+.macbook-text a{
+    position: relative;
+    bottom: 35px;
+}
+.ipad{
+    background: url(./images/ipadimage.jpg) no-repeat center center/cover;
+    height: 90vh;
+    text-align: center;
+    
+}
+
+.ipad p{
+    width: 30%;
+    margin: 10px auto;
+    padding: 0px 10px;
+    font-size: 1.2rem;
+}
+.ipad img{
+    margin-top: 30px;
+    padding: 0px 50px;
+}
+.airpods{
+    background-color: #000000;
+    height: 90vh;
+    color: #f4f4f4;
+    text-align: center;
+}
+.airpods-text{
+    margin-top: 50px ;
+    height: 25%;
+}
+
+.airpods p{
+    position: relative;
+    bottom: 25px;
+    font-size: 1.2rem;
+}
+.airpods a{
+    position: relative;
+    bottom: 25px;
+}
+.airpods img{
+
+   
+    height: 63%;
+    margin: 9px auto;
+    
+}
+.homepod{
+    background-color: #f8f9f9;
+    height: 90vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.homepod h1{
+    font-size: 2.4rem;
+    position: relative;
+    top: 20px;
+}
+.homepod p{
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 25px;
+}
+.homepod a{
+    position: relative;
+    bottom: 25px;
+}
+.homepod img{
+    
+    display: block;
+    height: 300px;
+    margin: 10px auto;
+}
+.shot{
+    background: url(./images/born_with_wings_large.jpg) no-repeat center center/cover;
+    height: 90vh;
+    text-align: center;
+    
+    color: #f4f4f4;
+}
+.shot img{
+    width: 100%;
+    
+}
+.shot p{
+    font-size: 1.2rem;
+}
+.shot-text{
+    position: relative;
+    margin: auto;
+    top: 310px;
+    width: 60%;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+h4{
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.main-footer{
+
+    background-color: #f4f4f4;
+    color: #4b4a4a;
+}
+.footer-container{
+    width: 70%;
+    margin: 10px auto;
+    padding: 30px ;
+    
+}
+.footer-container p{
+    font-size: 0.7rem;
+    color: #4b4a4a;
+}
+.list-ul{
+    position: relative;
+    right: 40px;
+    margin-bottom: 20px;
+}
+.list-ul ul li{
+   
+   text-align: left;
+   font-size: 0.75rem;
+   margin: 5px 0;
+}
+.list-ul ul li a{
+    text-decoration: none;
+    color:#181818;
+}
+.retailer{
+    text-decoration: none;
+    color: #2997ff;
+}
+.span span{
+    font-size: 0.8rem;
+}
+.copyright{
+    position: relative;
+    bottom: 24px;
+    left: 220px;
+    display: flex;
+    font-size: 0.7rem;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    
+}
+.copyright li{
+    margin-left: 10px;
+}
+
+
+.copyright li a{
+    text-decoration: none;
+    color: #4b4a4a;
+    
+}
+
+.india{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.india a{
+    position: relative;
+    bottom: 52px;
+    float: right;
+    font-size: 0.75rem;
+    color: #4b4a4a;
+    text-decoration: none;
+}
+.india span{
+    position: relative;
+    bottom: 3px;
+    left:  4px;
+
+}
+
+.vertical-line {
+    border-right: 1px solid #181818;
+    opacity: 0.9;
+    height: 12px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer-container a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:700px){
+    .feature{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .footer{
+        display: block;
+    }
+    .films-text{
+        top: 300px;
+    }
+    .films-button{
+        position: relative;
+        bottom:240px;
+    }
+
+    .copyright li{
+        position: relative;
+        top: 50px;
+        right: 250px;
+       
+    }
+    
+}
